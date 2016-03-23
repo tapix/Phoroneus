@@ -151,4 +151,124 @@
 [2016.03.23-11.15.42:775][498]LogSavePackage: Save=76.864891ms
 [2016.03.23-11.15.42:775][498]LogSavePackage: Moving '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Saved/FirstPersonExampleMap51348DB24D0D8BB122B06B82AEE1785D.tmp' to '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
 [2016.03.23-11.15.42:804][498]LogSavePackage: Total save time: 118.010957ms
-[2016.03.23-11.15.42:804][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Content/FirstPersonBP/Maps/FirstPersonEx
+[2016.03.23-11.15.42:804][498]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap
+[2016.03.23-11.25.12:185][335]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.25.12:185][335]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-11.25.12:185][335]PIE: New page: PIE session: FirstPersonExampleMap (Mar 23, 2016, 3:25:12 PM)
+[2016.03.23-11.25.12:185][335]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.23-11.25.12:208][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022579s)
+[2016.03.23-11.25.12:208][335]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.23-11.25.12:208][335]LogPlayLevel: PIE: World Init took: (0.000724s)
+[2016.03.23-11.25.12:209][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023528s)
+[2016.03.23-11.25.12:209][335]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.23-11.25.12:251][335]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-11.25.12:257][335]LogInit: FAudioDevice initialized.
+[2016.03.23-11.25.12:310][335]LogLinker:Warning: Asset '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Content/FirstPersonBP/Blueprints/FirstPersonHUD.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.23-11.25.12:335][335]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.23-11.25.12:339][335]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.03.23-13.25.12
+[2016.03.23-11.25.12:339][335]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.25.12:339][335]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.25.12:340][335]LogWorld: Bringing up level for play took: 0.004000
+[2016.03.23-11.25.12:341][335]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.375
+[2016.03.23-11.25.12:342][335]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.25.16:913][572]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.25.16:972][572]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.25.17:028][573]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000172EF2E0
+[2016.03.23-11.29.55:343][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.29.55:343][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-11.29.55:343][599]PIE: New page: PIE session: FirstPersonExampleMap (Mar 23, 2016, 3:29:55 PM)
+[2016.03.23-11.29.55:344][599]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.23-11.29.55:387][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.043622s)
+[2016.03.23-11.29.55:388][599]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.23-11.29.55:388][599]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2016.03.23-11.29.55:389][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.045073s)
+[2016.03.23-11.29.55:389][599]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.23-11.29.55:436][599]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-11.29.55:443][599]LogInit: FAudioDevice initialized.
+[2016.03.23-11.29.55:480][599]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.23-11.29.55:484][599]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.03.23-13.29.55
+[2016.03.23-11.29.55:485][599]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.29.55:485][599]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.29.55:485][599]LogWorld: Bringing up level for play took: 0.004282
+[2016.03.23-11.29.55:486][599]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.765
+[2016.03.23-11.29.55:486][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.29.58:841][767]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.29.58:898][767]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.29.58:945][768]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001ADAEB60
+[2016.03.23-11.30.10:645][ 80]MapCheck: New page: Map Check
+[2016.03.23-11.30.10:716][ 80]Cmd: MAP REBUILD ALLVISIBLE
+[2016.03.23-11.30.10:716][ 80]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.03.23-11.30.10:802][ 80]MapCheck:Warning: Warning WorldInfo_0 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2016.03.23-11.30.10:802][ 80]LogStats:          STAT_HLOD_BuildClusters - 26.409 ms
+[2016.03.23-11.30.10:802][ 80]LightingResults: New page: Lighting Build - Mar 23, 2016, 3:30:10 PM
+[2016.03.23-11.30.15:541][ 80]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.23-11.30.15:541][ 80]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.23-11.30.15:541][ 80]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.23-11.30.15:541][ 80]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.23-11.30.15:541][ 80]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.23-11.30.15:782][ 80]LogEditorBuildUtils: Build time 0:00:05
+[2016.03.23-11.30.15:814][ 81]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.03.23-11.30.15:820][ 81]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer BasicShapeMaterial, compiling. 
+[2016.03.23-11.30.17:637][ 95]Job has failed! Job executable didn't exit cleanly. Exit code: 1
+[2016.03.23-11.30.29:731][255]LogEditorViewport: Clicking on Actor (LMB): kerrostalo_Blueprint_C (kerrostalo_Blueprint)
+[2016.03.23-11.30.30:895][282]LogEditorViewport: Clicking on Actor (LMB): kerrostalo_Blueprint_C (kerrostalo_Blueprint)
+[2016.03.23-11.30.32:067][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.30.32:067][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-11.30.32:067][311]PIE: New page: PIE session: FirstPersonExampleMap (Mar 23, 2016, 3:30:32 PM)
+[2016.03.23-11.30.32:067][311]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.23-11.30.32:104][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036606s)
+[2016.03.23-11.30.32:106][311]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.23-11.30.32:106][311]LogPlayLevel: PIE: World Init took: (0.002247s)
+[2016.03.23-11.30.32:107][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.039430s)
+[2016.03.23-11.30.32:107][311]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.23-11.30.32:149][311]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-11.30.32:156][311]LogInit: FAudioDevice initialized.
+[2016.03.23-11.30.32:191][311]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.23-11.30.32:194][311]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.03.23-13.30.32
+[2016.03.23-11.30.32:194][311]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.30.32:194][311]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.30.32:195][311]LogWorld: Bringing up level for play took: 0.003385
+[2016.03.23-11.30.32:196][311]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.526
+[2016.03.23-11.30.32:196][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.30.48:862][168]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.30.48:921][168]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.30.48:973][169]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010006160
+[2016.03.23-11.30.50:521][200]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.23-11.30.51:083][200]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 107 classes and 0 folders.
+[2016.03.23-11.32.19:497][683]LogRenderer: Reallocating scene render targets to support 1104x880 (Frame:4314).
+[2016.03.23-11.32.28:709][846]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.03.23-11.33.29:948][194]LogActorComponent: UnregisterComponent: (/Engine/Transient.ProjectileMovementComponent_40__A6522401) Not registered. Aborting.
+[2016.03.23-11.33.29:991][194]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000012685B20
+[2016.03.23-11.33.30:122][194]LogSavePackage: Save=105.811073ms
+[2016.03.23-11.33.30:122][194]LogSavePackage: Moving '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Saved/FirstPersonExampleMap_Auto1801A4112463ED53DFF45E4A9ADB0C2A0.tmp' to '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap'
+[2016.03.23-11.33.30:146][194]LogSavePackage: Total save time: 143.162563ms
+[2016.03.23-11.33.30:146][194]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Saved/Autosaves/Game/FirstPersonBP/Maps/FirstPersonExampleMap_Auto1.umap
+[2016.03.23-11.33.30:152][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/FirstPersonBP/Maps/FirstPersonExampleMap' took 0.205
+[2016.03.23-11.33.30:152][194]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.205
+[2016.03.23-11.34.07:149][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.34.07:149][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.03.23-11.34.07:149][627]PIE: New page: PIE session: FirstPersonExampleMap (Mar 23, 2016, 3:34:07 PM)
+[2016.03.23-11.34.07:149][627]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.03.23-11.34.07:198][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049194s)
+[2016.03.23-11.34.07:199][627]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.03.23-11.34.07:199][627]LogPlayLevel: PIE: World Init took: (0.001088s)
+[2016.03.23-11.34.07:200][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.050568s)
+[2016.03.23-11.34.07:262][627]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.03.23-11.34.07:267][627]LogInit: FAudioDevice initialized.
+[2016.03.23-11.34.07:300][627]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.03.23-11.34.07:303][627]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.03.23-13.34.07
+[2016.03.23-11.34.07:303][627]LogActor:Warning: GameSession /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.34.07:303][627]LogActor:Warning: GameNetworkManager /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.03.23-11.34.07:303][627]LogWorld: Bringing up level for play took: 0.003320
+[2016.03.23-11.34.07:305][627]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap 0.58
+[2016.03.23-11.34.07:305][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.34.59:589][165]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-5505.502 Y=4115.225 Z=428.963] for [FirstPersonProjectile_C]
+[2016.03.23-11.35.00:191][195]LogSpawn:Warning: SpawnActor failed because of collision at the spawn location [X=-5511.518 Y=4080.072 Z=432.528] for [FirstPersonProjectile_C]
+[2016.03.23-11.35.08:540][591]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.35.08:607][591]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.03.23-11.35.08:647][591]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000547F3380
+[2016.03.23-11.35.18:948][834]LogEditorViewport: Clicking on Actor (LMB): Click_test_blueprint_C (Click_test_blueprint)
+[2016.03.23-11.37.35:763][720]LogSavePackage: Save=92.903114ms
+[2016.03.23-11.37.35:763][720]LogSavePackage: Moving '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Saved/FirstPersonExampleMap1DEBC5774EACBDE0877CF7BE8DC24389.tmp' to '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap'
+[2016.03.23-11.37.35:769][720]LogSavePackage: Total save time: 101.201877ms
+[2016.03.23-11.37.35:769][720]LogSavePackage:Disp
