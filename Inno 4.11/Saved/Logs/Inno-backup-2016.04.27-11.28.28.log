@@ -1,0 +1,215 @@
+﻿Log file open, 04/27/16 11:26:21
+LogInit:Display: Running engine for game: Inno
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1505877676) SRandInit(1505877678).
+LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+LogStats: Stats thread started at 0.046020
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.27-08.26.21:806][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-08.26.21:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.27-08.26.21:884][  0]LogInit: Computer: V-213-08
+[2016.04.27-08.26.21:884][  0]LogInit: User: group4kevat
+[2016.04.27-08.26.21:884][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.04.27-08.26.21:884][  0]LogInit: High frequency timer resolution =2.628271 MHz
+[2016.04.27-08.26.21:884][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2016.04.27-08.26.21:884][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.27-08.26.21:884][  0]LogMemory: Process Physical Memory: 313.45 MB used, 313.45 MB peak
+[2016.04.27-08.26.21:884][  0]LogMemory: Process Virtual Memory: 314.51 MB used, 314.51 MB peak
+[2016.04.27-08.26.21:884][  0]LogMemory: Physical Memory: 3119.40 MB used, 16257.05 MB total
+[2016.04.27-08.26.21:884][  0]LogMemory: Virtual Memory: 615.78 MB used, 8388608.00 MB total
+[2016.04.27-08.26.21:899][  0]LogTextLocalizationManager: No translations for ('fi-FI') exist, falling back to 'en' for localization and internationalization data.
+[2016.04.27-08.26.22:355][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.27-08.26.22:359][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4000' (Feature Level 11_0)
+[2016.04.27-08.26.22:359][  0]LogD3D11RHI:       64MB of dedicated video memory, 0MB of dedicated system memory, and 1632MB of shared system memory, 1 output[s]
+[2016.04.27-08.26.22:359][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.27-08.26.22:365][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.27-08.26.22:365][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4000
+[2016.04.27-08.26.22:365][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.27-08.26.22:365][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.27-08.26.22:366][  0]LogRHI: Texture pool is 616 MB (70% of 880 MB)
+[2016.04.27-08.26.22:369][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.27-08.26.22:384][  0]LogShaderCompilers: Guid format shader working directory is -39 characters bigger than the processId version (../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Intermediate/Shaders/WorkingDirectory/4320/).
+[2016.04.27-08.26.22:384][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/GROUP4~1/AppData/Local/Temp/UnrealShaderWorkingDir/2F812AD24307E423F9C934A2626F5EFE/'.
+[2016.04.27-08.26.22:384][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.27-08.26.23:706][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.27-08.26.23:712][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.27-08.26.23:718][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.27-08.26.23:726][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.27-08.26.23:733][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.27-08.26.23:738][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.27-08.26.23:742][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.27-08.26.23:745][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.27-08.26.23:750][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.27-08.26.23:754][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.27-08.26.23:758][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.27-08.26.23:766][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.27-08.26.23:766][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.27-08.26.23:766][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.27-08.26.23:783][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.27-08.26.23:786][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.27-08.26.23:790][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.27-08.26.23:794][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.27-08.26.23:799][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.27-08.26.23:799][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.27-08.26.23:872][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache: Loaded boot cache 0.09s 58MB C:/Users/group4-kevat/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/group4-kevat/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.27-08.26.23:966][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.27-08.26.23:982][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.27-08.26.23:993][  0]LogDerivedDataCache: Using Local data cache path C:/Users/group4-kevat/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.27-08.26.24:219][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.27-08.26.24:220][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.27-08.26.24:250][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.27-08.26.24:406][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.27-08.26.24:406][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.27-08.26.24:406][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.27-08.26.24:706][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.04.27-08.26.24:706][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.04.27-08.26.24:706][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.27-08.26.24:711][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.27-08.26.24:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-08.26.24:791][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.27-08.26.24:885][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-08.26.24:885][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-08.26.24:885][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-08.26.24:885][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-08.26.24:885][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.27-08.26.24:885][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.27-08.26.25:418][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.27-08.26.25:551][  0]LogAssetRegistry: FAssetRegistry took 0.0197 seconds to start up
+[2016.04.27-08.26.25:723][  0]LogFileManager:Warning: DeleteFile was unable to delete '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Intermediate/CachedAssetRegistry.bin', retrying in .5s...
+[2016.04.27-08.26.25:723][  0]SourceControl: Info Source control is disabled
+[2016.04.27-08.26.25:744][  0]SourceControl: Info Source control is disabled
+[2016.04.27-08.26.25:754][  0]SourceControl: Info Source control is disabled
+[2016.04.27-08.26.25:761][  0]SourceControl: Info Source control is disabled
+[2016.04.27-08.26.25:872][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.04.27-08.26.25:945][  0]LogEngine: Initializing Engine...
+[2016.04.27-08.26.26:114][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.27-08.26.26:119][  0]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.27-08.26.26:142][  0]LogInit: FAudioDevice initialized.
+[2016.04.27-08.26.26:173][  0]LogDerivedDataCache: Saved boot cache 0.03s 58MB C:/Users/group4-kevat/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.27-08.26.26:177][  0]LogInit: Texture streaming: Enabled
+[2016.04.27-08.26.26:234][  0]LogFileManager:Warning: DeleteFile recovered during retry!
+[2016.04.27-08.26.26:236][  0]LogInit: Transaction tracking system initialized
+[2016.04.27-08.26.26:268][  0]BlueprintLog: New page: Editor Load
+[2016.04.27-08.26.26:371][  0]LocalizationService: Info Localization service is disabled
+[2016.04.27-08.26.26:458][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2016.04.27-08.26.26:458][  0]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/SideScrollerOverview'
+[2016.04.27-08.26.26:458][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/SideScrollerBP/SideScrollerOverview.SideScrollerOverview_C'
+[2016.04.27-08.26.26:701][  0]LogConsoleResponse:Display: 
+[2016.04.27-08.26.26:852][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.27-08.26.26:852][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.27-08.26.26:852][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.27-08.26.26:920][  0]LogFileCache: Scanning file cache for directory 'C:/Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/' took 0.02s
+[2016.04.27-08.26.26:929][  0]SourceControl: Info Source control is disabled
+[2016.04.27-08.26.26:929][  0]Cmd: MAP LOAD FILE="../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/FirstPersonBP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.27-08.26.26:930][  0]LightingResults: New page: Lighting Build
+[2016.04.27-08.26.26:935][  0]MapCheck: New page: Map Check
+[2016.04.27-08.26.26:935][  0]LightingResults: New page: Lighting Build
+[2016.04.27-08.26.27:363][  0]LogLinker:Warning: Asset '../../../../../../Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/FirstPerson/Meshes/FirstPersonProjectileMesh.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.27-08.26.27:471][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2016.04.27-08.26.27:477][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.33] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 15 ms]
+[2016.04.27-08.26.27:477][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.33] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.27-08.26.27:477][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.33] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.27-08.26.27:536][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning InputAction Event references unknown Action 'Fire' for  InputAction Fire 
+[2016.04.27-08.26.27:542][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.39] Compile of FirstPersonCharacter successful, but with 1 Warning(s) [in 21 ms]
+[2016.04.27-08.26.27:542][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.40] Compile of FirstPersonCharacter successful, but with 2 Warning(s) [in 0 ms]
+[2016.04.27-08.26.27:542][  0]LogBlueprint:Warning: [compiler FirstPersonCharacter] Warning [0006.40] Compile of FirstPersonCharacter successful, but with 3 Warning(s) [in 0 ms]
+[2016.04.27-08.26.28:541][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.27-08.26.28:565][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.27-08.26.28:566][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.27-08.26.28:655][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 89.073ms to complete.
+[2016.04.27-08.26.28:655][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.726
+[2016.04.27-08.26.28:813][  0]LogCollectionManager: Loaded 0 collections in 0.001811 seconds
+[2016.04.27-08.26.28:850][  0]LogFileCache: Scanning file cache for directory 'C:/Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Saved/Collections/' took 0.01s
+[2016.04.27-08.26.28:850][  0]LogFileCache: Scanning file cache for directory 'C:/Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/Developers/group4kevat/Collections/' took 0.01s
+[2016.04.27-08.26.28:850][  0]LogFileCache: Scanning file cache for directory 'C:/Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/Collections/' took 0.01s
+[2016.04.27-08.26.28:850][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.04.27-08.26.28:859][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 1979 classes and 343 folders.
+[2016.04.27-08.26.28:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.27-08.26.28:863][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.27-08.26.28:863][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.27-08.26.28:867][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.27-08.26.28:873][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.27-08.26.28:906][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.04.27-08.26.28:910][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.27-08.26.28:976][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.27-08.26.28:979][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.27-08.26.29:006][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.27-08.26.29:007][  0]LogLoad: Full Startup: 7.86 seconds (BP compile: 0.34 seconds)
+[2016.04.27-08.26.29:007][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.27-08.26.29:026][  0]LogOcInput: OculusInput pre-init called
+[2016.04.27-08.26.29:086][  0]LogContentStreaming: Texture pool size now 200 MB
+[2016.04.27-08.26.29:252][  0]LogRenderer: Reallocating scene render targets to support 888x568 (Frame:2).
+[2016.04.27-08.26.30:101][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/group4-kevat/Documents/Unreal Projects/Kokeilu/InnoGit/Inno 4.11/Content/' took 1.06s
+[2016.04.27-08.26.30:120][  1]LogAssetRegistry: Asset discovery search completed in 4.5887 seconds
+[2016.04.27-08.26.30:120][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.27-08.26.30:120][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2016.04.27-08.26.47:322][407]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.27-08.26.47:322][407]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.27-08.26.47:324][407]PIE: New page: PIE session: FirstPersonExampleMap (Apr 27, 2016, 1:26:47 PM)
+[2016.04.27-08.26.47:324][407]LogPlayLevel: Creating play world package: /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2016.04.27-08.26.47:378][407]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053854s)
+[2016.04.27-08.26.47:381][407]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2016.04.27-08.26.47:381][407]LogPlayLevel: PIE: World Init took: (0.002657s)
+[2016.04.27-08.26.47:381][407]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.057041s)
+[2016.04.27-08.26.47:430][407]LogInit: XAudio2 using 'Speakers / Headphones (IDT High Definition Audio CODEC)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2016.04.27-08.26.47:435][407]LogInit: FAudioDevice initialized.
+[2016.04.27-08.26.47:475][407]LogWorld: Game class is 'FirstPersonGameMode_C'
+[2016.04.27-08.26.47:495][407]LogWorld: Bringing World /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 60) at 2016.04.27-11.26.47
+[2016.04.27-08.26.47:496][407]LogWorld: Bringing up level for play took: 0.019929
+[2016.04.27-08.26.47:500][407]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 9 classes and 0 folders.
+[2016.04.27-08.26.47:500][407]PIE: Info Play in editor start time for /Game/FirstPersonBP/Maps/UEDPIE_0_FirstPersonExampleMap -0.578
+[2016.04.27-08.26.47:501][407]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonBP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2016.04.27-08.27.24:097][287]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.24:600][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.25:100][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.25:601][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.26:101][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.26:601][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.27:102][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.27:602][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.28:646][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.28:646][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.29:102][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.29:602][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.30:102][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.30:602][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.31:102][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.31:602][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.32:102][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.32:603][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.33:105][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.33:606][288]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2016.04.27-08.27.33:606][288]LogD3D11RHI:Error: Direct3DDevice->CreateBuffer(&Desc, NULL, UniformBufferResource.GetInitReference()) failed 
+ at D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11UniformBuffer.cpp:159 
+ with error DXGI_ERROR_DEVICE_REMOVED
+[2016.04.27-08.27.35:645][288]LogWindows: FPlatformMisc::RequestExit(1)
+[2016.04.27-08.27.35:645][288]Log file closed, 04/27/16 11:27:35
