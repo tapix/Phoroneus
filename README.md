@@ -8,4 +8,4 @@ Demo video 0.1 <https://youtube.com/watch?v=oxOteIdJ8zk>
 
 Demo video 0.2 <https://youtube.com/watch?v=ywTmwYaOPtU>
 
-Demo video 0.3 <https://www.youtube.com/watch?v=J5XWvGT1TJc>
+Demo video 0.3 <https://youtube.com/watch?v=J5XWvGT1TJc>
